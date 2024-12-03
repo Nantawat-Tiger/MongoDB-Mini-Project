@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import Meeting from "../models/Meeting.js";
+import Meeting from "../models/meeting.js";
 
 // Get all bookings
 export const getAllBookings = async (req, res) => {
